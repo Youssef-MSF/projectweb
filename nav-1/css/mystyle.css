@@ -1,0 +1,28 @@
+body{
+	background: #CCC;
+}
+#header a:hover{
+	color:#FFF;
+}
+#bg-img{
+	background: url("../img/one.jpg"); 
+	background-size:100%;
+	background-repeat: no-repeat;
+   min-height: 500px;
+}
+#img1{
+	width: 250px;
+	height: 250px;
+}
+#aboutData{
+	margin-top: -200px;
+}
+#about .fa{
+ color: #FFF;
+} 
+.image-container{
+	background-color: black;
+}
+.user-img {
+	margin-top: -50px;
+}
