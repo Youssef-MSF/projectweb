@@ -4,58 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product</title>
+    <title>Product Detail</title>
 
-    <link rel="stylesheet" href="fonts/foundation-icons/foundation-icons.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <?php
+
+    include 'links.php';
+
+    ?>
+
 </head>
 
 <body>
 
     <?php
 
-    include 'nav-1/one.php';
+    include 'navbar.php';
 
     ?>
-
-    <style>
-        #productInfo {
-            margin-top: 100px;
-        }
-
-        #ajouter,
-        #retirer {
-            width: 170px;
-        }
-
-        @media (max-width: 420px) {
-            #retirer {
-                margin-top: 10px;
-            }
-        }
-
-        @media (min-width: 770px) and (max-width: 880px) {
-            #retirer {
-                margin-top: 10px;
-            }
-        }
-
-        @media (max-width: 1000px) {
-            #productInfo {
-                margin-top: 0px;
-            }
-        }
-    </style>
-
     <br><br><br><br>
 
     <div class="container-fluid">
 
         <div class="row">
 
-            <div class="col-md-6 mb-4">
+            <div class="col-md-5 mb-4">
 
-                <img src="images/14.jpg" class="img-fluid">
+                <img src="images/raw.jpg" class="img-fluid">
 
             </div>
 
@@ -93,12 +67,13 @@
             </div>
 
         </div>
+    </div>
 
-        <?php
+    <?php
 
-        include 'footer-1/footer-1/footer.php';
+    include 'footer.php';
 
-        ?>
+    ?>
 
 
 </body>

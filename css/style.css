@@ -1,0 +1,53 @@
+#exinline i {
+    font-size: 3em;
+    margin-right: 10px;
+}
+
+#exinline i img {
+    width: 40px;
+    height: 40px;
+}
+
+#footer {
+    display: flex;
+    text-align: center;
+    background-color: #B1ADEE;
+    padding-top: 5%;
+}
+
+#products {
+    overflow: hidden;
+}
+
+@media(max-widh: 600px) {
+    #footer input {
+        size: 10;
+    }
+}
+
+#productInfo {
+    margin-top: 100px;
+}
+
+#ajouter,
+#retirer {
+    width: 170px;
+}
+
+@media (max-width: 420px) {
+    #retirer {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 880px) {
+    #retirer {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #productInfo {
+        margin-top: 0px;
+    }
+}
