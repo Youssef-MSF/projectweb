@@ -1,4 +1,4 @@
-<select id="country" name="country" class="form-control">
+<select id="country" name="country" class="form-control" style="background-color: transparent;border: none;border-bottom: 1px solid gray;">
    <option selected="selected">Selectionner votre pays</option>
    <option value="Afganistan">Afghanistan</option>
    <option value="Albania">Albania</option>

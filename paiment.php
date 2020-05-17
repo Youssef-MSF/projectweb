@@ -15,6 +15,14 @@ include 'navbar.php';
 
 <br><br><br><br><br>
 
+<style>
+    input[type=text] {
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid gray;
+    }
+</style>
+
 <!-- Principale formulaire de paiment -->
 
 <main>
@@ -62,7 +70,7 @@ include 'navbar.php';
                                 <div class="md-form mb-5 input-icons">
                                     <table>
                                         <tr>
-                                            <td><i class="fas fa-credit-card" style="font-size: 25px;"></i></td>
+                                            <td><i class="fas fa-credit-card" style="font-size: 25px;color: cornflowerblue;"></i></td>
                                             <td class="container"><input type='text' placeholder='Numéro de carte bancaire' id='numeroCarteBancaire' name='numeroCarteBancaire' class='form-control'></td>
                                         </tr>
                                     </table>
