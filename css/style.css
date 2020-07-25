@@ -19,7 +19,7 @@
     overflow: hidden;
 }
 
-@media(max-widh: 600px) {
+@media(max-width: 600px) {
     #footer input {
         size: 10;
     }

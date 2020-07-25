@@ -22,25 +22,25 @@ include 'navbar.php';
             <div class="col-lg-8 col-md-12 col-sm-9 form-box">
                 <div class="reset-form d-block">
                     <form class="reset-password-form">
-                        <h4 class="mb-3">Reset your password</h4>
-                        <p class="mb-3 text-white">Please enter your email address</p>
+                        <h4 class="mb-3">Réintialiser votre mot de passe</h4>
+                        <p class="mb-3 text-white">Veuillez entrer votre adresse mail</p>
                         <div class="form-input">
                             <span><i class="fa fa-envelope"></i></span>
                             <input type="email" placeholder="Email Address" required>
                         </div>
                         <div class="mb-3">
-                            <button class="btn" type="submit">Send Reset Link</button>
+                            <button class="btn" type="submit">Envoyer</button>
                         </div>
                     </form>
                 </div>
                 <div class="reset-confirmation d-none">
                     <div class="mb-4">
-                        <h4 class="mb-3">Link was send</h4>
-                        <h6 class="text-white">Please check your inbox</h6>
+                        <h4 class="mb-3">Lien bien envoyé</h4>
+                        <h6 class="text-white">Veuillez vérifier votre boite mail</h6>
                     </div>
                     <div>
                         <a href="login.php">
-                            <button type="submit" class="btn">Login Now</button>
+                            <button type="submit" class="btn">S'identifier</button>
                         </a>
                     </div>
                 </div>

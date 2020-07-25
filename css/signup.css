@@ -1,0 +1,170 @@
+#middle_content2 {
+    background-color: white;
+    position: absolute;
+    border-radius: 8px;
+    width: 40%;
+    left: 30%;
+    top: 10%;
+}
+
+#form {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    text-align: center;
+    font-family: all;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#label {
+    font-family: all;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    font-style: all;
+    font-size: 15px;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+}
+
+input.Enregistrer {
+    color: black;
+    background-color: green;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+input.Enregistrer:hover {
+    opacity: 1;
+}
+
+@media(width: 360px) {
+    #middle_content {
+        position: absolute;
+        width: 80%;
+        left: 10%;
+        top: 5%;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    input.Enregistrer {
+        opacity: 1;
+    }
+}
+
+@media(width: 411px) {
+    #middle_content {
+        position: absolute;
+        width: 80%;
+        left: 10%;
+        top: 10%;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    input.Enregistrer {
+        opacity: 1;
+    }
+}
+
+@media(width: 320px) {
+    #middle_content {
+        position: absolute;
+        width: 80%;
+        left: 10%;
+        top: 1%;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    input.Enregistrer {
+        opacity: 1;
+    }
+}
+
+@media(width: 375px) {
+    #middle_content {
+        position: absolute;
+        width: 80%;
+        left: 10%;
+        top: 7%;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    input.Enregistrer {
+        opacity: 1;
+    }
+}
+
+@media(width: 414px) {
+    #middle_content {
+        position: absolute;
+        width: 80%;
+        left: 10%;
+        top: 10%;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    input.Enregistrer {
+        opacity: 1;
+    }
+}
+
+@media(width: 768px) {
+    #middle_content {
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        top: 7%;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    input.Enregistrer {
+        opacity: 1;
+    }
+    #label {
+        font-size: 40px;
+    }
+    input {
+        width: 100%;
+        font-style: all;
+        font-size: 30px;
+    }
+}
+
+@media(width: 1024px) {
+    #middle_content {
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        top: 20%;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    input.Enregistrer {
+        opacity: 1;
+    }
+    #label {
+        font-size: 40px;
+    }
+    input {
+        width: 100%;
+        font-style: all;
+        font-size: 30px;
+    }
+}
